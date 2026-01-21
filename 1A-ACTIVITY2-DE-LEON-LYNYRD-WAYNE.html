@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Weekly Schedule</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  img {
+    width: 180px;
+    height: 180px;
+    border: 4px solid gold;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  img:hover {
+    box-shadow: 0 0 15px gold;
+  }
+
+  .header-table {
+    width: 100%;
+    background-color: #1e1e1e;
+    border: 3px solid #4caf50;
+    border-radius: 15px;
+    padding: 15px;
+  }
+
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    border: 3px solid #2196f3;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .schedule-table th {
+    background-color: #263238;
+    padding: 10px;
+    border-bottom: 2px solid #2196f3;
+  }
+
+  .schedule-table td {
+    padding: 8px;
+    text-align: center;
+  }
+
+  /* ROW COLORS – NEON PALETTE */
+.mon { background-color: #ff1744; }
+.tue { background-color: #2979ff; }
+.wed { background-color: #00e676; }
+.thu { background-color: #b388ff; }
+.fri { background-color: #ff9100; }
+.sat { background-color: #ff4081; }
+
+  /* Hover effect */
+  .schedule-table tr:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+  }
+
+  .info-table {
+    width: 100%;
+    background-color: #1e1e1e;
+    border: 3px solid #9c27b0;
+    border-radius: 15px;
+    padding: 15px;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+</style>
+</head>
+
+<body>
+
+<table class="header-table">
+  <tr>
+    <td><img src="LYNYRD.jpg"></td>
+    <td>
+      <h1>MY WEEKLY SCHEDULE</h1>
+      <p style="color:#81c784; text-align:center;">
+        This is my Sunday to Saturday schedule.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<h2>WEEKLY SCHEDULE</h2>
+
+<table class="schedule-table">
+  <tr>
+    <th>SUBJECT CODE</th>
+    <th>SUBJECT DESCRIPTION</th>
+    <th>DAY</th>
+    <th>TIME</th>
+    <th>PROF / INS.</th>
+    <th>NOTES</th>
+  </tr>
+
+  <tr class="mon">
+    <td>PATHFIT 2</td>
+    <td>Exercise-Based Fitness Activities</td>
+    <td>MONDAY</td>
+    <td>3:00 PM – 5:00 PM</td>
+    <td>PROF. GILBERT LIM</td>
+    <td>N/A</td>
+  </tr>
+
+  <tr class="mon">
+    <td>CC 103</td>
+    <td>Computer Programming 2</td>
+    <td>MONDAY</td>
+    <td>9:00 AM - 11:00 AM</td>
+    <td>PROF. EFREN, VICTORIA</td>
+    <td>Programming Activity</td>
+  </tr>
+
+  <tr class="tue">
+    <td>CSM 121</td>
+    <td>College Algebra</td>
+    <td>TUESDAY</td>
+    <td>7:00 AM – 10:00 AM</td>
+    <td>PROF. RENATO DE GUZMAN</td>
+    <td>N/A</td>
+  </tr>
+
+  <tr class="wed">
+    <td>CC 108</td>
+    <td>Technical Computer Concepts</td>
+    <td>WEDNESDAY</td>
+    <td>5:30 PM – 8:30 PM</td>
+    <td>PROF. ALDRIN VILLANUEVA</td>
+    <td>N/A</td>
+  </tr>
+
+  <tr class="thu">
+    <td>LIT 001</td>
+    <td>Philippine Literature in English</td>
+    <td>THURSDAY</td>
+    <td>5:30 PM – 8:30 PM</td>
+    <td>PROF. JEREMIAH IRARUM</td>
+    <td>Reporting</td>
+  </tr>
+
+  <tr class="fri">
+    <td>CC 107</td>
+    <td>Web Systems & Technologies</td>
+    <td>FRIDAY</td>
+    <td>7:00 AM – 12:00 PM</td>
+    <td>PROF. PRINCESS ANGELICA RAMIL</td>
+    <td>ACTIVITY #2 on 2/19/2025</td>
+  </tr>
+
+  <tr class="fri">
+    <td>GEC 003</td>
+    <td>The Contemporary World</td>
+    <td>FRIDAY</td>
+    <td>2:00 PM – 5:00 PM</td>
+    <td>PROF. JAY C. QUIAMBAO</td>
+    <td>Reporting</td>
+  </tr>
+
+  <tr class="sat">
+    <td>CC 103</td>
+    <td>Computer Programming 2</td>
+    <td>SATURDAY</td>
+    <td>6:00 PM - 9:00 PM</td>
+    <td>PROF. EFREN, VICTORIA</td>
+    <td>N/A</td>
+  </tr>
+
+  <tr class="sat">
+    <td>NSTP 122</td>
+    <td>Civil Welfare Training Services 2</td>
+    <td>SATURDAY</td>
+    <td>1:30 PM – 4:30 PM</td>
+    <td>PROF. RICARDO MACAHIYA</td>
+    <td>N/A</td>
+  </tr>
+</table>
+
+<br><br>
+
+<table class="info-table">
+  <tr>
+    <td>
+      <h3>CSD DEPT. HEAD</h3>
+      <ul>
+        <li>BSCS – Efren Victoria</li>
+        <li>BSIT – Jessie C. Alamil</li>
+        <li>BSEMC – Cattlea C. Lee</li>
+        <li>BSIS – Aldwin Jan Quilben</li>
+      </ul>
+    </td>
+    <td>
+      <h3>TOP PRIORITIES OF THE WEEK</h3>
+      <ol>
+        <li>Practice Coding</li>
+        <li>Assemble & Disassemble PC</li>
+        <li>Contemporary World Report</li>
+        <li>College Algebra Notes</li>
+        <li>Path Fit Exercise</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
